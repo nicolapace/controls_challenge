@@ -5,10 +5,10 @@ class Controller(BaseController):
   """
   A simple PID controller
   """
-  def __init__(self,):
-    self.p = 0.3
-    self.i = 0.05
-    self.d = -0.1
+  def __init__(self, p=0.3, i=0.05,d=-0.1):
+    self.p = p
+    self.i = i
+    self.d = d
     self.error_integral = 0
     self.prev_error = 0
 
