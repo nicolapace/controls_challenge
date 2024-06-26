@@ -15,15 +15,12 @@ class GeneticAlgorithmPIDOptimizer:
 
     def initialize_population(self) -> List[Tuple[float, float, float]]:
         return [
-            # p=0.1182, i=0.1292, d=0.043#
-            # P: 0.1221
-            # I: 0.1448
-            # D: 0.0367
+            # p=0.1182, i=0.1292, d=0.043
+            # p=0.1221, i=0.1448, d=0.0367
             (
                 # random.uniform(0, 0.15),
                 # random.uniform(0.05, 0.16),
                 # random.uniform(-0.01, 0.07),
-                
                 random.uniform(0, 1),
                 random.uniform(0.0, 0.5),
                 random.uniform(-0.2, 0.2),
