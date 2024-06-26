@@ -18,7 +18,7 @@ class GeneticAlgorithmPIDOptimizer:
             # p=0.1182, i=0.1292, d=0.043
             # p=0.1221, i=0.1448, d=0.0367
             (
-                #  random.uniform(0, 0.15),
+                # random.uniform(0, 0.15),
                 # random.uniform(0.05, 0.16),
                 # random.uniform(-0.01, 0.07),
                 random.uniform(0, 1),
